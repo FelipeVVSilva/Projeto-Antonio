@@ -113,20 +113,48 @@ html, p, ul, li, a{
     transition: 0.8s;
 }
 
+.area-atuacao{
+    margin-top: 4em;
+}
+
+.area-atuacao{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.area-atuacao h2{
+
+    margin-left: 0;
+    border-bottom: .1em solid #edc20d;
+}
+
+.linha{
+    padding-top: .2em;
+    margin-left: 9.8em;
+    width: 10em;
+    padding-right: .1em;
+    background-color: #edc20d;
+}
+
 .area-atuacao-layout{ 
     margin: 0;
     margin: auto;
-    width: 80%;
-    background-color: red;
+    width: 100%;
+    /*background-color: red;*/
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .layout{
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 3em;
     padding-bottom: 1.5em;
-    width: 25em;
-    background-color: black;
+    width: 23em;
+   /* background-color: black;*/
+    border-bottom: .1em solid #a6a6a6;
 }
 
 .layout h3{
@@ -137,7 +165,7 @@ html, p, ul, li, a{
     border-radius: 10px 10px 0 0;
     margin: 0;
     padding-top: 5em;
-    padding-bottom: 5em;
+    padding-bottom: 8em;
     background-image: url('imgs/empresario-focado-assina-documentos-em-reuniao-corporativa-gerada-por-ia.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -146,13 +174,15 @@ html, p, ul, li, a{
 }
 
 .layout a{
+    text-align: center;
+    font-size: 1em;
     display: block;
     text-decoration: none;
     color: #fff;
     padding: .5em .8em .5em .8em;
     background-color: #edc20d;
     margin-top: 2em;
-    width: 7em;
+    width: 20em;
     margin-left: auto;
     margin-right: auto;
     border-radius: 1.5em;
