@@ -193,8 +193,45 @@ html, p, ul, li, a{
     transition: 0.8s;
 }
 
+/* Estilo para a tela modal */
+.modal {
+    display: none; /* Por padrão, a tela modal não é exibida */
+    position: fixed; /* Permanece fixo no topo */
+    z-index: 1; /* Deixe a tela modal sobre o resto do conteúdo */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Adiciona rolagem se necessário */
+    background-color: rgba(0,0,0,0.4); /* Cor de fundo semi-transparente */
+    padding-top: 3.75em; /* Espaçamento no topo */
+}
 
+/* Estilo para o conteúdo da tela modal */
+.modal-content {
+    background-color: #fefefe; /* Cor de fundo */
+    margin: 5% auto; /* Centralize verticalmente e um pouco para a esquerda */
+    padding: 1.25em;
+    border: 0.0625em solid #888;
+    width: 80%; /* Largura */
+    position: relative; /* Para posicionar o botão de fechar */
+}
 
+/* Estilo para o botão de fechar */
+.close {
+    color: #aaa;
+    position: absolute; /* Posicionamento absoluto em relação ao modal-content */
+    top: 0; /* Distância do topo (ajustar conforme necessário) */
+    right: 0.25em; /* Distância da direita (ajustar conforme necessário) */
+    font-size: 1.75em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+}
 
 
 
