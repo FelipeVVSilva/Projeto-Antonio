@@ -256,7 +256,7 @@ html, p, ul, li, a{
 
 
 
-@media only screen and (max-width: 49em) {
+@media only screen and (max-width: 48.5em) {
     .simple-contact{
         display: none;
     }
