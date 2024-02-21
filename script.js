@@ -29,3 +29,12 @@ window.onclick = function(event) {
         event.target.style.display = "none";
     }
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.querySelector('.hamburger');
+    const menu = document.querySelector('.simple-header ul');
+
+    hamburger.addEventListener('click', function() {
+        menu.classList.toggle('active');
+    });
+});
