@@ -263,7 +263,7 @@ html, p, ul, li, a{
 
     .simple-header{
         flex-direction: column;
-        margin-bottom: 5em;
+        margin-bottom: 6.5em;
     }
 
     .simple-header ul{
@@ -273,5 +273,24 @@ html, p, ul, li, a{
         justify-content: space-around;
         list-style: none;
         align-items: center;
+    }
+
+    .simple-header ul li{
+        width: 10em;
+    }
+
+    .simple-header ul li a{
+        display: inline-block;
+        color: #fff;
+        margin-top: .5em;
+        background-color: #edc20d;
+        width: 100%;
+        text-align: center;
+        border-radius: 1em;
+    }
+
+    .simple-header ul li a:hover{
+        color: #fff;
+        background-color: #b39210;
     }
   }
