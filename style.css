@@ -60,7 +60,7 @@ html, p, ul, li, a{
 
 .simple-header ul{
     display: flex;
-    width: 50%;
+    width: 70%;
     justify-content: space-around;
     list-style: none;
     align-items: center;
